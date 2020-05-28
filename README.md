@@ -33,6 +33,8 @@ COCO Dataset by Microsoft
 ## Network Architecture
 
 1. CNN Encoder which finds the patterns in images and encodes them into embedded feature vectors.
-
+<img width="1284" alt="encoder" src="https://user-images.githubusercontent.com/58632651/83154882-ef97db00-a100-11ea-9ffd-317fa8cb795e.png">
 
 2. RNN Decoder which consists of single LSTM unit followed by a Fully connected layer (Linear layer) that generates image captions.
+
+<img width="1430" alt="decoder" src="https://user-images.githubusercontent.com/58632651/83154932-fc1c3380-a100-11ea-9736-defb8839c4e9.png">
